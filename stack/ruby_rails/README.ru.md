@@ -2,13 +2,18 @@
 
 https://ruby-challenge.com/grades/backend-junior
 
-1. Software design
-2. Protocols and data formats
-3. Ruby
-4. Rails
-5. Linux
-6. Testing
-7. Git
+![Ruby & Rails Junior skills](https://github.com/KeyJoo/ses/blob/dev/assets/img/Ruby_rails_junior_skills_2.png)
+
+
+1. [Software design](#software-design)
+2. [Protocols and data formats](#protocols-and-data-formats)
+3. [Ruby](#ruby)
+4. [Rails](#rails)
+5. [Linux](#linux)
+6. [Testing](#testing)
+7. [Git](#git)
+
+
 
 
 ## Software design
