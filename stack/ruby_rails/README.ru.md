@@ -2,7 +2,7 @@
 
 https://ruby-challenge.com/grades/backend-junior
 
-![Ruby & Rails Junior skills](https://github.com/KeyJoo/ses/assets/img/ruby_rails_junior_v3_resize.svg)
+![Ruby & Rails Junior skills](https://github.com/KeyJoo/ses/blob/dev/assets/img/ruby_rails_junior_v3_resize.svg)
 
 
 1. [Software design](#software-design)
