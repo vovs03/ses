@@ -14,6 +14,8 @@ https://ruby-challenge.com/grades/backend-junior
 7. [Git](#git)
 
 
+
+
 ## Software design
 
 - Основы ООП
