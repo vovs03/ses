@@ -2,8 +2,8 @@
 
 https://ruby-challenge.com/grades/backend-junior
 
-1. [Software design](#software)
-2. [Protocols and data formats](#protocols)
+1. [Software design](#software-design)
+2. [Protocols and data formats](#protocols-and-data-formats)
 3. [Ruby](#ruby)
 4. [Rails](#rails)
 5. [Linux](#linux)
