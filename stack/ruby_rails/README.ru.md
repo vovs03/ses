@@ -2,6 +2,9 @@
 
 https://ruby-challenge.com/grades/backend-junior
 
+![Ruby & Rails Junior skills](https://github.com/KeyJoo/ses/assets/img/ruby_rails_junior_v3_resize.svg)
+
+
 1. [Software design](#software-design)
 2. [Protocols and data formats](#protocols-and-data-formats)
 3. [Ruby](#ruby)
