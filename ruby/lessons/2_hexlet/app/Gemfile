@@ -1,0 +1,8 @@
+ source "https://rubygems.org"
+
+gem 'open3'
+
+group :test do
+  gem 'minitest',
+  gem 'minitest-reporters', '>= 1.1.7'
+end
