@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.15.0)
+    open3 (0.1.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest
+  open3
+
+BUNDLED WITH
+   1.17.3
