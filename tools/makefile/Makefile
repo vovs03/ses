@@ -1,23 +1,33 @@
-SHELL=/bin/sh
+#SHELL=/bin/sh
+SHELL=/usr/bin/env bash
+
+vpath makefiles
+
+# include ./makefiles/*.mk
+# include './makefiles/*.mk'
+# include "./makefiles/*.mk"
+
+#include -I ./makefiles/*.mk
+#include make-rails.mk
+
+#LIB_MKFLS = ./makefiles/*.mk
+#include LIB_MKFLS
+
+
+-include -f ./mks/*.mk
+
+# ==================================================================================== #
+# HELPERS
+# ==================================================================================== #
+
+## help: print this help message
+.PHONY: help
+help:
+	@echo 'Usage:'
+	@sed -n 's/^##//p' ${MAKEFILE_LIST} | column -t -s ':' |  sed -e 's/^/ /'
 
 
 read:
 	@echo http://re.dopo.st/201015204327/ Ivan Nemytchenko ()
 
-# =====================
-all :
-	@echo no\
-		space
-	@echo no\
-	space
-	@echo - one \
-		space
-	@echo one\
-		Гибралтар
-
-info:
-	# 16.2 Utilities in Makefiles GNU make | book p. 158
-	@echo = Utilities in Makefile = 
-	@echo 
-	@echo - awk cat cmp cp diff echo egrep expr false grep install-info ln ls
-	@echo - mkdir mv printf pwd rm rmdir sed sleep sort tar test touch tr true
+# rails_serve: r
