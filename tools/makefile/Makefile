@@ -1,20 +1,16 @@
 #SHELL=/bin/sh
 SHELL=/usr/bin/env bash
 
-vpath makefiles
+vpath ../makefiles
 
 # include ./makefiles/*.mk
 # include './makefiles/*.mk'
 # include "./makefiles/*.mk"
 
-#include -I ./makefiles/*.mk
-#include make-rails.mk
+-include -I ./makefiles/*.mk 
 
 #LIB_MKFLS = ./makefiles/*.mk
 #include LIB_MKFLS
-
-
--include -f ./mks/*.mk
 
 # ==================================================================================== #
 # HELPERS
@@ -30,4 +26,4 @@ help:
 read:
 	@echo http://re.dopo.st/201015204327/ Ivan Nemytchenko ()
 
-# rails_serve: r
+rails_serve: r
