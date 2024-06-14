@@ -1,2 +1,4 @@
-mind_store/**/*.png
-mind_store/**/*.svg
+mind_storm/**/*.png
+mind_storm/**/*.svg
+
+.vscode
